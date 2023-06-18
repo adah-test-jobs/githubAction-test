@@ -1,7 +1,6 @@
 name: shell commands
 
-on:
-  - push
+on: push
 
 jobs: 
   run-shell-commands: 
@@ -13,4 +12,5 @@ jobs:
         run: |
           pwd
           node -v
+          ls -a
           
