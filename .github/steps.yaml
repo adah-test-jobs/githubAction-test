@@ -2,7 +2,8 @@ name: shell commands
 
 on:
   - push
-job: 
+
+jobs: 
   run-shell-commands: 
     runs-on: ubuntu-latest
     steps: 
